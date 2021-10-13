@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Login Page</title>
+  </head>
+  <body>
+    <center>
+      <div class="container">
+        <form action="./submitForm.html" method="get">
+          <label for="first_name" class="form-label form color-white font-18"
+            >First Name:</label>
+          <input
+            type="text"
+            class="form-field form font-18"
+            name="first_name"
+            id="first_name"
+            placeholder="First name"
+          /><br /><br />
+          <label for="last_name" class="form-label form color-white font-18"
+            >Last Name:</label
+          >
+          <input
+            type="text"
+            class="form-field form font-18"
+            name="last_name"
+            id="last_name"
+            placeholder="Last name"
+          /><br /><br />
+          <label for="email" class="form-label form color-white font-18"
+            >Email:</label
+          >
+          <input
+            type="email"
+            class="form-field form font-e="email"
+            id="email"
+            placeholder="Email address"
+          /><br /><br />
+          <label for="password" class="form-label form color-white font-18"
+            >Password:</label
+          >
+          <input
+            type="password"
+            class="form-field form font-18"
+            name="password"
+            id="password"
+            placeholder="Password"
+          /><br />
+          <a href="#" class="forget-password font-16 color-white"
+            >Forget Password</a
+          >
+          <br /><br /><br />
+          <div class="keep_me_login">
+            <label for="keep_me_login" class="color-white font-16"
+              >Keep me login:</label
+            >
+            <input type="checkbox" name="keep_me_login" id="keep_me_login" />
+          </div>
+          <br /><br /><br />
+          <input type="submit" value="Sign in" class="font-18 submit-btn" />
